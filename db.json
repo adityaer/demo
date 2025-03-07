@@ -1,12 +1,59 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "title": "Post 1 User 1", "user_id": 1 },
+    { "id": 2, "title": "Post 2 User 1", "user_id": 1 },
+    { "id": 3, "title": "Post 3 User 1", "user_id": 1 },
+	{ "id": 4, "title": "Post 1 User 2", "user_id": 2 },
+    { "id": 5, "title": "Post 2 User 2", "user_id": 2 },
+    { "id": 6, "title": "Post 3 User 2", "user_id": 2 }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "comment 1 post 1 user 1", "postId": 1 },
+    { "id": 2, "body": "comment 2 post 1 user 1", "postId": 1 },
+	{ "id": 3, "body": "comment 3 post 1 user 1", "postId": 1 },
+	{ "id": 4, "body": "comment 1 post 2 user 1", "postId": 1 },
+    { "id": 5, "body": "comment 2 post 2 user 1", "postId": 1 },
+	{ "id": 6, "body": "comment 3 post 2 user 1", "postId": 1 },
+	{ "id": 7, "body": "comment 1 post 3 user 1", "postId": 1 },
+    { "id": 8, "body": "comment 2 post 3 user 1", "postId": 1 },
+	{ "id": 9, "body": "comment 3 post 3 user 1", "postId": 1 },
+	{ "id": 10, "body": "comment 1 post 1 user 2", "postId": 2 },
+    { "id": 11, "body": "comment 2 post 1 user 2", "postId": 2 },
+	{ "id": 12, "body": "comment 3 post 1 user 2", "postId": 2 },
+	{ "id": 13, "body": "comment 1 post 2 user 2", "postId": 2 },
+    { "id": 14, "body": "comment 2 post 2 user 2", "postId": 2 },
+	{ "id": 15, "body": "comment 3 post 2 user 2", "postId": 2 },
+	{ "id": 16, "body": "comment 1 post 3 user 2", "postId": 2 },
+    { "id": 17, "body": "comment 2 post 3 user 2", "postId": 2 },
+	{ "id": 18, "body": "comment 3 post 3 user 2", "postId": 2 }
+  ],
+  "albums": [
+    { "id": 1, "title": "Album 1 User 1", "user_id": 1, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 2, "title": "Album 2 User 1", "user_id": 1, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 3, "title": "Album 3 User 1", "user_id": 1, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+	{ "id": 4, "title": "Album 1 User 2", "user_id": 2, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 5, "title": "Album 2 User 2", "user_id": 2, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 6, "title": "Album 3 User 2", "user_id": 2, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" }
+  ],
+  "albums_detail": [
+    { "id": 1, "title": "Album 1 User 1 detail 1", "album_id": 1, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 2, "title": "Album 1 User 1 detail 2", "album_id": 1, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 3, "title": "Album 1 User 1 detail 3", "album_id": 1, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+	{ "id": 4, "title": "Album 2 User 1 detail 1", "album_id": 2, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 5, "title": "Album 2 User 1 detail 2", "album_id": 2, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 6, "title": "Album 2 User 1 detail 3", "album_id": 2, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+	{ "id": 7, "title": "Album 3 User 1 detail 1", "album_id": 3, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 8, "title": "Album 3 User 1 detail 2", "album_id": 3, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 9, "title": "Album 3 User 1 detail 3", "album_id": 3, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+	{ "id": 10, "title": "Album 1 User 2 detail 1", "album_id": 4, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 11, "title": "Album 1 User 2 detail 2", "album_id": 4, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 12, "title": "Album 1 User 2 detail 3", "album_id": 4, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+	{ "id": 13, "title": "Album 2 User 2 detail 1", "album_id": 5, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 14, "title": "Album 2 User 2 detail 2", "album_id": 5, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 15, "title": "Album 2 User 2 detail 3", "album_id": 5, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+	{ "id": 16, "title": "Album 3 User 2 detail 1", "album_id": 6, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 17, "title": "Album 3 User 2 detail 2", "album_id": 6, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" },
+    { "id": 18, "title": "Album 3 User 2 detail 3", "album_id": 6, "album_image_path": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" }
   ],
   "profile": {
     "name": "typicode"
